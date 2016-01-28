@@ -1,15 +1,15 @@
-var express = require('express');
-var router = express.Router();
-
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'KonanZone' });
-});
-router.get('/', function(req, res, next) {
-  res.render('login', { title: 'KonanZone' });
-});
-
-module.exports = router;
+//var express = require('express');
+//var router = express.Router();
+//
+///* GET home page. */
+//router.get('/', function(req, res, next) {
+//  res.render('index', { title: 'KonanZone' });
+//});
+//router.get('/', function(req, res, next) {
+//  res.render('login', { title: 'KonanZone' });
+//});
+//
+//module.exports = router;
 
 module.exports =function(app){
   app.get('/', function (req,res){
