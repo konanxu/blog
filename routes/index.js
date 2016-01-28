@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'KonanZone' });
 });
 router.get('/', function(req, res, next) {
-  res.render('ligin', { title: 'KonanZone' });
+  res.render('login', { title: 'KonanZone' });
 });
 
 module.exports = router;
