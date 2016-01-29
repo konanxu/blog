@@ -42,7 +42,9 @@ app.use(session({
     db: settings.db,
     host: settings.host,
     port: settings.port
-  })
+  }),
+  resave: true,
+  saveUninitialized: true
 }));
 // error handlers
 
